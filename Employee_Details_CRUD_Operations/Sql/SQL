@@ -1,0 +1,10 @@
+  create database demo;
+  use demo;
+  create table emp (
+ num  int(3) NOT NULL AUTO_INCREMENT,
+  empid varchar(120) NOT NULL,
+ name varchar(120) NOT NULL,
+ designation varchar(220) NOT NULL,
+ salary int NOT NULL,
+ PRIMARY KEY (num)
+);
